@@ -11,16 +11,16 @@ A sophisticated AI-powered debate platform where artificial intelligence agents 
 ## Screenshots
 
 ### Main Interface
-*[Screenshot of the main welcome page with modern dark theme]*
+*[Screenshot coming soon.....]*
 
 ### Debate Setup
-*[Screenshot of the sidebar configuration panel with persona selection]*
+*[Screenshot coming soon.....]*
 
 ### Live Debate
-*[Screenshot of an active debate with multiple AI agents exchanging arguments]*
+*[Screenshot coming soon.....]*
 
 ### Results Dashboard
-*[Screenshot of the final scores and analysis]*
+*[Screenshot coming soon.....]*
 
 ## Features
 
