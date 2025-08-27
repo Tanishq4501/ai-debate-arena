@@ -10,10 +10,8 @@ import time
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(name)s - %(levelname)s - %(message)s')
 logger = logging.getLogger(__name__)
 
-# Configure Gemini API (Use environment variable for security)
-API_KEY = os.getenv("GEMINI_API_KEY")
-if not API_KEY:
-    raise ValueError("GEMINI_API_KEY environment variable is required")
+API_KEY = os.getenv("GEMINI_API_KEY", "AIzaSyB7-jgzzXD-N_E0SPsqEcQkSWjt57xEe04") #replace with your key
+genai.configure(api_key=API_KEY)
 
 class DebateAgent:
     def __init__(self, name, role, persona_style, topic):
@@ -360,4 +358,5 @@ class DebateAgent:
             "persona": self.persona_style,
             "topic": self.topic,
             "retry_count": self.retry_count
+
         }
