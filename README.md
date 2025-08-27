@@ -6,7 +6,6 @@ A sophisticated AI-powered debate platform where artificial intelligence agents 
 
 **[Try AI Debate Arena Live](https://ai-debate-arena-tantheta.streamlit.app/)** 
 
-*Replace with your actual Streamlit deployment URL*
 
 ## Screenshots
 
